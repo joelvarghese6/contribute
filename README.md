@@ -37,7 +37,7 @@ To run the application locally, follow these steps:
    npm install
    ```
 
-3. **Running the application:**
+## Running the application
 
     ```sh
     npm start
