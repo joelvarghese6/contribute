@@ -43,7 +43,7 @@ function HomePage() {
       <Container>
         <Box sx={{ textAlign: "center" }}>
           <Typography variant="h3" component="h1" gutterBottom>
-            BlockFund
+            Contribute
           </Typography>
           <Typography variant="h3" component="h1" gutterBottom>
             Welcome to Our Crowdfunding App

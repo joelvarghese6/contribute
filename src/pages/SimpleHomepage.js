@@ -27,8 +27,7 @@ const SimpleHomePage = () => {
       <main className="flex-grow container mx-auto text-center py-20">
         <h1 className="text-5xl font-bold mb-6">Welcome to Contribute!</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Atomize React is a UI framework that helps developers collaborate with
-          designers and build consistent user interfaces effortlessly.
+          You can take your initiative or project to the next level, with the help of contribute. An open-sourced Decentralized crowdfunding platform for a better tomorrow.
         </p>
         <div className="space-x-4">
           <Link to={{ pathname: "/home", hash: "#grid" }}>
