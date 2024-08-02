@@ -47,6 +47,6 @@ This will start the development server and open the application in your default 
 
 ## Videos
 
-- **[Demo](https://google.com)**
-- **Code Walkthrough** 
+- **[Demo](https://www.loom.com/share/d5bc639852ec4cc39579d44e4366f088)**
+- **[Code Walkthrough](https://www.loom.com/share/bcb728dbb3d045c28cd843eac5ed31e0?sid=aa5a2212-2e75-4df3-b8d7-c9874afcdf86)** 
 
