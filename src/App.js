@@ -9,7 +9,7 @@ import MainHeader from "./components/main-header";
 import SimpleHomePage from "./pages/SimpleHomepage";
 import { Toaster } from 'react-hot-toast';
 
-const OKTO_CLIENT_API_KEY = "536721e5-a464-427e-8ca6-5e7b5b7582f0";
+const OKTO_CLIENT_API_KEY = process.env.REACT_APP_OKTO_CLIENT_API_KEY;
 
 function App() {
   return (
