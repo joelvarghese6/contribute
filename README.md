@@ -2,6 +2,8 @@
 
 Welcome to the Decentralized Crowdsourcing Platform! This platform allows users to get help from other users who are interested in supporting their initiatives or projects. Built using React and the Okto Wallet SDK, this decentralized application (dApp) aims to create a community-driven environment where contributions are incentivized with NFTs or other rewards.
 
+## [Visit the Dapp](https://contribute-black.vercel.app/)
+
 ## Table of Contents
 
 - [Features](#features)
