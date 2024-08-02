@@ -1,0 +1,6 @@
+{
+  "name": "Jacob",
+  "url": "",
+  "currency": "USDC",
+  "defaultAmounts": [10, 20, 50]
+}
