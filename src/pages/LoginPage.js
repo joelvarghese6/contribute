@@ -10,7 +10,7 @@ function LoginPage() {
   const { authenticate } = useOkto();
   const [authToken, setAuthToken] = useState();
   const BASE_URL = "https://sandbox-api.okto.tech";
-  const OKTO_CLIENT_API = process.env.REACT_APP_OKTO_CLIENT_API_KEY;
+  const OKTO_CLIENT_API = "536721e5-a464-427e-8ca6-5e7b5b7582f0";
 
   const apiService = axios.create({
     baseURL: BASE_URL,
