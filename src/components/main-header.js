@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 export default function MainHeader() {
@@ -20,10 +21,10 @@ export default function MainHeader() {
           >
             Projects
           </Link>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#" onClick={() => toast("Contact Admin")} className="text-gray-600 hover:text-gray-800">
             Create
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="https://github.com/joelvarghese6/contribute" target="_blank" className="text-gray-600 hover:text-gray-800">
             Github
           </a>
         </nav>

@@ -36,6 +36,7 @@ const AboutPage = () => {
   }, []);
 
   const createCheckOutSession = async () => {
+    setLoading(true);
     transferTokens({
       network_name: networkName,
       token_address: tokenAddress,
@@ -44,12 +45,13 @@ const AboutPage = () => {
     })
       .then((result) => {
         console.log("Transfer success", result);
-        toast.success("Transfer Success")
+        toast.success("Transfer Success");
       })
       .catch((error) => {
         console.log("Transfer error", error);
-        toast.error("Something happened")
+        toast.error("Something happened");
       });
+    setLoading(false);
   };
 
   return (
